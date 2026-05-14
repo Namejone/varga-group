@@ -29,6 +29,9 @@ const brandsSliderLeft = new Swiper('.brands__dir-left', {
             spaceBetween: 70
         },
         1024: {
+            spaceBetween: 70
+        },
+        1400: {
             spaceBetween: 120
         }
     }
@@ -52,6 +55,9 @@ const brandsSliderRight = new Swiper('.brands__dir-right', {
             spaceBetween: 70
         },
         1024: {
+            spaceBetween: 70
+        },
+        1400: {
             spaceBetween: 120
         }
     }

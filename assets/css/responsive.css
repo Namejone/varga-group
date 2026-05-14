@@ -100,11 +100,7 @@
     height: 470px;
   }
 
-  .hero__slide-item {
-    max-width: 85%;
-    width: 100%;
-    height: 470px;
-  }
+
 
   .footer__social a {
     height: 50px;
@@ -127,6 +123,40 @@
     width: 40%;
   }
 
+  .fs-2 {
+    font-size: 44px !important;
+  }
+
+  .brands__slider .swiper-slide {
+    width: 150px;
+    text-align: center;
+  }
+
+  .brands__slider .swiper-slide img {
+    max-width: 100%;
+    max-height: 108px;
+  }
+
+  .brands-section {
+    padding: 88px 0px 90px;
+  }
+
+  .pretitle {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .case__title h2 {
+    margin-bottom: 22px;
+  }
+
+  .case-section {
+    padding: 110px 0px 50px;
+  }
+
+  .testimonial-section {
+    padding: 70px 0px 80px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -135,10 +165,7 @@
     height: 370px;
   }
 
-  .hero__slide-item {
-    max-width: 85%;
-    height: 369px;
-  }
+
 
   .header__nav>nav>ul {
     gap: 37px;
@@ -168,6 +195,19 @@
     padding: 42px 0px 46px;
     gap: 20px;
   }
+
+  .testimonial__item p {
+    font-size: 22px;
+  }
+
+  .testimonial-section {
+    min-height: 740px;
+  }
+
+  .testimonial__item p.small {
+    font-size: 18px;
+    line-height: 2;
+  }
 }
 
 @media (max-width: 991px) {
@@ -176,10 +216,6 @@
     height: 300px;
   }
 
-  .hero__slide-item {
-    max-width: 90%;
-    height: 300px;
-  }
 
   .footer-wrapper {
     max-width: 720px;
@@ -229,6 +265,37 @@
     font-size: 15px;
   }
 
+  .partner__btn .icon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .partner__btn .icon img {
+    max-width: 90px;
+    max-height: 90px;
+  }
+
+  .partner__btn .text {
+    font-size: 18px;
+  }
+
+  .case-section {
+    padding: 77px 0px 10px;
+  }
+
+  .testimonial__item p {
+    font-size: 20px;
+  }
+
+  .testimonial__slider .swiper-pagination {
+    margin-top: 24px;
+    gap: 4px;
+  }
+
+  .testimonial__slider .swiper-pagination-bullet {
+    height: 14px;
+    width: 14px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -265,9 +332,7 @@
     height: 182px;
   }
 
-  .hero__slide-item {
-    height: 182px;
-  }
+
 
   .footer {
     padding: 40px 0px 0px;
@@ -327,6 +392,135 @@
   .footer-wrapper {
     max-width: 420px;
   }
+
+  .partners-section {
+    padding: 41px 0px 48px;
+  }
+
+  .fs-2 {
+    font-size: 34px !important;
+  }
+
+  .partners__title h2 {
+    margin-bottom: 10px;
+  }
+
+  .partners__title p {
+    font-size: 17px;
+  }
+
+  .partners__title {
+    margin-bottom: 20px;
+  }
+
+  .partner__btn {
+    gap: 7px;
+    margin-bottom: 28px;
+  }
+
+  .brands-section {
+    padding: 40px 0px 40px;
+  }
+
+  .brands__slider .swiper-slide {
+    width: 110px;
+  }
+
+  .brands__slider {
+    margin-bottom: 36px;
+  }
+
+  .brands__title {
+    margin: 0 auto;
+    margin-bottom: 44px;
+  }
+
+  .brands__slider .swiper-slide img {
+    max-width: 100%;
+    max-height: 90px;
+  }
+
+  .case-section {
+    padding: 43px 0px 10px;
+  }
+
+  .gallery-container {
+    gap: 6px;
+  }
+
+  .case__title p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 0px;
+  }
+
+  .center-item {
+    width: 288px;
+    height: 400px;
+  }
+
+  .h-350 {
+    height: 120px;
+  }
+
+  .w-348 {
+    width: 120px;
+  }
+
+  .h-462 {
+    height: 210px;
+  }
+
+  .content-overlay {
+    width: 100%;
+    padding: 52px 12px 14px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    opacity: 1;
+    transform: translateY(0px);
+    height: 63%;
+    padding-bottom: 18px;
+    background: linear-gradient(to top, black, transparent);
+    flex-direction: column-reverse;
+    border-radius: 18px;
+  }
+
+  .overlay-text {
+    color: white;
+    font-size: 18px;
+    max-width: 100%;
+    line-height: 1.4;
+    text-align: right;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  .content-overlay button {
+    font-size: 13px;
+    border-width: 1px;
+    font-weight: 600;
+  }
+
+  .pin-section {
+    height: auto;
+  }
+
+  .testimonial__item p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 14px;
+  }
+
+  .testimonial-section {
+    padding: 40px 0px 30px;
+  }
+
+  .testimonial-section {
+    min-height: auto;
+  }
+
+  .borderAnimation::after {
+    height: 6px;
+  }
 }
 
 
@@ -340,8 +534,21 @@
     height: 182px;
   }
 
-  .hero__slide-item {
-    height: 182px;
+
+
+  .partner__btn .icon {
+    width: 130px;
+    height: 130px;
+  }
+
+  .partner__btn .text {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .partner__btn .icon img {
+    max-width: 70px;
+    max-height: 70px;
   }
 }
 
@@ -359,7 +566,5 @@
     height: 150px;
   }
 
-  .hero__slide-item {
-    height: 150px;
-  }
+
 }
