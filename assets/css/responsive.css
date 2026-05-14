@@ -47,6 +47,19 @@
     padding: 110px 0px 20px;
     background-color: #014359;
   }
+
+  .partners-section {
+    padding: 100px 0px 100px;
+  }
+
+  .brands-section {
+    padding: 110px 0px 110px;
+  }
+
+  .testimonial-section {
+    background-color: #00455c;
+    padding: 110px 0px 100px;
+  }
 }
 
 @media (max-width: 1399px) {
