@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -27,7 +34,7 @@
                         <!-- logo--end -->
 
                         <!-- header-nav -->
-                        <div class="header__nav">
+                        <div class="header__nav d-none d-lg-block">
                             <nav>
                                 <ul>
                                     <li class="nav-item has-children">
@@ -60,11 +67,59 @@
 
                         <!-- mobile-menu-button -->
                         <button type="button" class="header__offcanvasBtn d-lg-none">
-                            <i class="ri-menu-2-line"></i>
+                            <span class="menu"><i class="ri-menu-2-line"></i></span>
+                            <span class="menu-close"><i class="ri-close-large-line"></i></span>
                         </button>
                         <!-- mobile-menu-button--end -->
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="offcanvas-menu">
+            <div class="container">
+                <ul>
+
+
+                    <li class="menu-item">
+                        <div class="menu-link" data-bs-toggle="collapse" data-bs-target="#servicesMenu"
+                            aria-expanded="false">
+                            Services
+                            <i class="ri-arrow-down-s-line dropdown-icon"></i>
+                        </div>
+                        <div class="collapse" id="servicesMenu">
+                            <ul class="submenu">
+                                <li><a href="" class="nav-link">Campaigns & Major Gifts</a></li>
+                                <li><a href="" class="nav-link">Communications</a></li>
+                                <li><a href="" class="nav-link">Analytics</a></li>
+                                <li><a href="" class="nav-link">Development Operations</a></li>
+                                <li><a href="" class="nav-link">Trainings</a></li>
+                                <li><a href="" class="nav-link">Retreats</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Clients</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Case Studies</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Resources</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">About</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Contact Us</a>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </header>
@@ -80,7 +135,7 @@
                     <div class="col-12">
                         <div class="hero__content">
                             <div class="hero__content-inner">
-                                <h1 class="fs-1">Expert counsel for <br> the real world. </h1>
+                                <h1 class="fs-1">Expert counsel for <br> the real world.</h1>
                                 <p>
                                     Capital campaigns, major gift teams, and boards.
                                 </p>
@@ -122,6 +177,93 @@
     </main>
     <!-- main--end -->
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer__top">
+                <!-- footer-left -->
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <a href="index.html">
+                            <img src="assets/imgs/footer-logo.png" alt="footer-logo">
+                        </a>
+                        <div class="footer__logo-content">
+                            <div class="diagonal-line"></div>
+                            <div class="content">
+                                <div class="slope-shaper"></div>
+                                <p>Expert counsel <br> <span>for the</span> real world.</p>
+                                <p>Capital campaigns. <br> Major gift teams. <br> Boards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__newsletter">
+                        <div class="newsletter__form">
+                            <input type="text" class="form-control" placeholder="Get TVG Newsletter!">
+                            <button type="button" class="btn">Signup</button>
+                        </div>
+                        <p class="small">By subscribing, you agree to receive thoughtful updates from us. <br> Your
+                            email
+                            stays
+                            confidential, always.</p>
+                    </div>
+                </div>
+                <!-- footer-left--end -->
+
+                <!-- footer-center -->
+                <div class="footer__center">
+                    <div class="footer__links-wrapper">
+                        <div class="footer__links">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Clients</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">Resource LIbrary</a></li>
+                                <li><a href="#">News & Insights</a></li>
+                                <li><a href="#">About TVG</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer__links">
+                            <ul>
+
+                                <li><a href="#">SERVICES</a></li>
+                                <li><a href="#">CAPital CAmpAigns & MAjor GiFTS</a></li>
+                                <li><a href="#">Communications</a></li>
+                                <li><a href="#">ANALYTICS</a></li>
+                                <li><a href="#">DEvelopment Operations</a></li>
+                                <li><a href="#">Trainings</a></li>
+                                <li><a href="#">retreats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="" class="btn btn-outline btn-outline-nion">Contact Us</a>
+                </div>
+                <!-- footer-center--end -->
+
+                <!-- footer-left -->
+                <div class="footer__end">
+                    <div class="footer__social">
+                        <a href=""><img src="assets/imgs/linkdin.png" alt="linkdin"></a>
+                        <a href=""><img src="assets/imgs/insta.png" alt="instagram-img"></a>
+                        <a href=""><img src="assets/imgs/facebook.png" alt="facebook"></a>
+                    </div>
+                    <div class="footer__brands">
+                        <a href=""><img src="assets/imgs/footer-brand-1.png" alt="brand-logo"></a>
+                        <a href=""><img src="assets/imgs/footer-brand-2.png" alt="brand-logo"></a>
+                    </div>
+                </div>
+                <!-- footer-left--end -->
+            </div>
+
+            <div class="footer__bottom d-flex align-items-center justify-content-between">
+                <p>©2026 The Varga Group. All Rights Reserved. </p>
+                <p>The Varga Group is proud to be a woman-owned business.</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer--end -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>

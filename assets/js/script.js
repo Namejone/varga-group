@@ -11,3 +11,16 @@ const heroSwiper = new Swiper('.hero__slider', {
     },
     speed: 800,
 });
+
+// Offcanvas menu script
+document.addEventListener('DOMContentLoaded', () => {
+    const offcanvasBtn = document.querySelector('.header__offcanvasBtn');
+    const offcanvasMenu = document.querySelector('.offcanvas-menu');
+
+    if (offcanvasBtn && offcanvasMenu) {
+        offcanvasBtn.addEventListener('click', function () {
+            this.classList.toggle('active');
+            offcanvasMenu.classList.toggle('active');
+        });
+    }
+});
